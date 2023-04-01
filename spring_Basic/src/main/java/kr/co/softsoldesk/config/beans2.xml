@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xsi:schemaLocation="http://www.springframework.org/schema/beans 
+            http://www.springframework.org/schema/beans/spring-beans.xsd" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xmlns="http://www.springframework.org/schema/beans">
+      <!-- getBean메서드에 의해서 생성자가 호출된 후 bean1_init()실행. close()메서드호출 후 bean1_destroy()실행 auto_wire.... -->
+     <bean id='t1' class="kr.co.softsoldek.beans2.TestBean1" lazy-init="true" 
+     init-method="bean1_init" destroy-method="bean1_destroy"/>
+ </beans><!-- 힙메모리 -->

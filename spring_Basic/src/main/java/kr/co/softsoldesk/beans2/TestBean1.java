@@ -1,7 +1,7 @@
-package kr.co.softsoldek.beans2;
+package kr.co.softsoldesk.beans2;
 
 public class TestBean1 {
-	
+
 	public TestBean1() {
 		System.out.println("TestBean1의 생성자 입니다");
 	}

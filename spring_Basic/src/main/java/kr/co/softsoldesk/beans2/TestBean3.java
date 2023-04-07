@@ -1,7 +1,7 @@
-package kr.co.softsoldek.beans2;
+package kr.co.softsoldesk.beans2;
 
 public class TestBean3 {
-	
+
 	public TestBean3() {
 		System.out.println("TestBean3의 생성자");
 	}
@@ -22,11 +22,3 @@ public class TestBean3 {
 		System.out.println("TestBean3의 destroy 메서드");
 	}
 }
-
-
-
-
-
-
-
-
